@@ -1,0 +1,259 @@
+:root{
+    --primary-text-color: #757575; 
+    --title-text-color:#212121;
+    --accent-color: #212121;
+    --active-link-color:#2196F3;
+    --primary-bg-color: #fffffF;
+    --bg-color:#2F303A;
+    --button-bg-color:#F5F4FA;
+}
+
+body{
+   color: var(--primary-text-color);
+   background-color: var(--primary-bg-color);
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em
+}
+
+ul{
+    list-style: none;
+    
+ } 
+ /* стили навигации */
+
+ /* логотип */
+ .logo{
+    font-family: raleway, sans-serif;
+    color:var(--title-text-color);
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+ }
+ .logo:hover,
+ .logo:focus{
+    color: var(--active-link-color);
+ }
+ .web{ 
+    color: var(--active-link-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+ }
+ 
+ 
+ 
+ .links{
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+ }
+ 
+.links:hover,
+.links:focus{
+    color:var(--active-link-color);
+}
+/* connection */
+.connection{
+color: var(--primary-text-color);
+font-family: 'Roboto';
+font-style: normal;
+
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+.connection:hover,
+.connection:focus{
+    color:var(--active-link-color);
+}
+.links.active{
+color: var(--active-link-color);
+}
+/* hero */
+.hero{
+    background-color: var(--bg-color);
+
+ }
+.hero-title{
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+}
+
+
+
+
+
+/* Button */
+
+.button{
+    font-family: Roboto, sans-serif;
+    color: var(--primary-bg-color);
+    background-color: var(--active-link-color) ;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+    border: none;
+    min-width: 73px;
+   
+}
+.button:hover,
+.button:focus{
+    color:var(--accent-color);
+    background-color: var(--active-link-color);
+}
+/* class="benefits" */
+.inv{
+    color: var(--primary-bg-color);
+}
+.benefits{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+
+}
+/* Чим ми займаємось */
+.work{
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
+
+/* comand */
+
+.comand{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:  var(--title-text-color);
+
+}
+    
+.prof{
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
+/* footer */
+
+footer{
+    
+    background-color: var(--bg-color);
+    color: var(--primary-bg-color);
+}
+
+.address{
+    color: var(--primary-bg-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.address:hover,
+.address:focus{
+    color: var(--active-link-color);
+}
+
+/* portfolio */
+
+.studio{
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.studio:hover{
+color:var(--active-link-color);
+}
+
+
+.button.port.active{
+    background-color: var(--active-link-color);
+    color: var(--primary-bg-color) ;
+    
+    height: 38px;
+    left: 512px;
+    top: 174px;
+   
+}
+.button.port{
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: var(--button-bg-color);
+   
+    letter-spacing: 0.03em;
+    
+    height: 38px;
+    left: 593px;
+    top: 174px;
+    
+}
+.button.port:hover,
+.button.port:focus{
+    color: var(--primary-bg-color);
+    background-color: var(--active-link-color);
+}
+
+.button.port.active:hover,
+.button.port.active:focus{
+    color:var(--accent-color);
+    background-color: var(--active-link-color);
+}
+.portfolio{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+
+    letter-spacing: 0.06em;
+
+    color: var(--title-text-color);
+
+}
+.name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+
+}
