@@ -8,13 +8,18 @@
     --button-bg-color:#F5F4FA;
 }
 
+
 body{
+    width: 1600px;
+    margin: 0 auto;
+    
    color: var(--primary-text-color);
    background-color: var(--primary-bg-color);
    font-family: Roboto, sans-serif;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em
+   
 }
 
 ul{
@@ -22,16 +27,36 @@ ul{
     
  } 
  /* стили навигации */
+ header{
+    border-bottom: 1px solid #ECECEC;
+    
+ }
+ .driver{
+   width: 1200px;
+    margin: 0 auto;
+   padding-left: 15px;
+   padding-bottom: 32px;
+  
+ }
+ nav{
+    
+    margin-top: 0px;
+    display: inline-block;
+    
+    
+ }
 
  /* логотип */
  .logo{
+    display: inline-block;
+    padding-top: 32px;
     font-family: raleway, sans-serif;
     color:var(--title-text-color);
-    
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    
  }
  .logo:hover,
  .logo:focus{
@@ -48,13 +73,16 @@ ul{
  
  
  .links{
+    
     color: var(--accent-color);
     font-style: normal;
     font-weight: 500;
-    
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-left: 0;
  }
  
 .links:hover,
@@ -62,19 +90,59 @@ ul{
     color:var(--active-link-color);
 }
 /* connection */
-.connection{
-color: var(--primary-text-color);
-font-family: 'Roboto';
-font-style: normal;
+.connection{ 
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;    
 
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-text-decoration: none;
 }
+.phone{
+   
+    margin-top: 0;
+    margin-bottom: 0;    
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+
+}
+.mail{
+    
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin-bottom: 0px;
+    margin-top: 0;
+    
+}
+.mail:hover, .mail:focus{
+    color:var(--active-link-color);
+}
+.mail.active{
+    color: var(--active-link-color);
+    
+    margin-top: 0;
+    margin-bottom: 0;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+   
+}
+
 .connection:hover,
 .connection:focus{
     color:var(--active-link-color);
+   
 }
 .links.active{
 color: var(--active-link-color);
@@ -82,17 +150,24 @@ color: var(--active-link-color);
 /* hero */
 .hero{
     background-color: var(--bg-color);
-
+  
  }
 .hero-title{
+    display: block;
     color: var(--primary-bg-color);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;    
+    text-align: center;
+    padding-top: 200px;
+    margin-top: 0;  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;  
+    
 }
 
 
@@ -105,7 +180,7 @@ color: var(--active-link-color);
     font-family: Roboto, sans-serif;
     color: var(--primary-bg-color);
     background-color: var(--active-link-color) ;
-    
+    border: 2px dashed tomato;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -114,14 +189,46 @@ color: var(--active-link-color);
     min-width: 73px;
    
 }
+.button.order{
+   
+    
+    padding: 10px 32px;
+    min-width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    border-radius: 4px;
+    
+    margin-left: 690px;
+    margin-right: auto;
+    margin-bottom: 200px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 .button:hover,
 .button:focus{
     color:var(--accent-color);
     background-color: var(--active-link-color);
 }
 /* class="benefits" */
-.inv{
-    color: var(--primary-bg-color);
+.bun{
+    
+    padding-top: 94px;
+    margin-bottom: 0;
+    
+
+}
+
+.visually-hidden{
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .benefits{
     font-style: normal;
@@ -131,21 +238,52 @@ color: var(--active-link-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
+    margin: 0;
 
 }
+.benefits-m{
+    margin-top: 0 ;
+    margin-bottom: 0px;
+    padding-left: 215px;
+    
+}
+/* container */
+.container{
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
 /* Чим ми займаємось */
 .work{
+    padding-top: 94px;
     font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-text-align: center;
-letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    padding-left: 617px;
+    letter-spacing: 0.03em;
+   
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+}
+.what.we.work{
+   
+   padding-left: 215px; 
+   
 
-color: var(--title-text-color);
 }
 
 /* comand */
+.team{
+    margin-bottom: 0;
+    padding-left: 215px;
+    padding-bottom: 94px;
+}
 
 .comand{
     font-style: normal;
@@ -154,7 +292,7 @@ color: var(--title-text-color);
     line-height: 1.2;
     letter-spacing: 0.03em;
     color:  var(--title-text-color);
-
+   margin-bottom: 10px;
 }
     
 .prof{
@@ -167,12 +305,29 @@ color: var(--title-text-color);
 /* footer */
 
 footer{
-    
+    margin-bottom: 0;
+    margin: 0px  ;
     background-color: var(--bg-color);
     color: var(--primary-bg-color);
+   
+    
 }
-
+.foot-nav{
+    width: 1200px;
+   margin: 0 auto;
+   
+}
+.footer.logo{
+    display: inline-block;
+    padding-top: 60px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.f{
+    padding-left: 0px;
+}
 .address{
+    display: inline-block;
     color: var(--primary-bg-color);
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -181,12 +336,51 @@ footer{
     line-height: 1.7;
     letter-spacing: 0.03em;
     text-decoration: none;
+    padding-left: 15px;
+    min-width: 230px;
+   
 }
 .address:hover,
 .address:focus{
     color: var(--active-link-color);
 }
-
+.footer-mail{
+    display: inline-block;
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    min-width: 230px;
+    padding-left: 15px;
+    
+}
+.footer-phone{
+    display: inline-block;
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    min-width: 230px;
+    padding-left: 15px;
+    margin-bottom: 60px;
+   margin-left: 0;
+}
+.footer-mail:hover,
+.footer-mail:focus{
+    color:var(--active-link-color);
+    
+}
+.footer-phone:hover,
+.footer-phone:focus{
+    color:var(--active-link-color);
+    
+}
 /* portfolio */
 
 .studio{
@@ -199,15 +393,24 @@ footer{
 .studio:hover{
 color:var(--active-link-color);
 }
+.our-work{
+    display: inline-block;
+    padding-top: 94px;
+    margin-top: 0;
+    border-radius: 4px;
+    text-align: center;
 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
 
 .button.port.active{
     background-color: var(--active-link-color);
     color: var(--primary-bg-color) ;
-    
+    padding: 6px 25px;
     height: 38px;
     left: 512px;
     top: 174px;
+    
    
 }
 .button.port{
@@ -217,13 +420,13 @@ color:var(--active-link-color);
     font-size: 16px;
     line-height: 1.2;
     background-color: var(--button-bg-color);
-   
     letter-spacing: 0.03em;
-    
     height: 38px;
     left: 593px;
     top: 174px;
-    
+    padding: 6px 22px;
+    margin-left: 512px;
+    border-radius: 4px;
 }
 .button.port:hover,
 .button.port:focus{
@@ -241,7 +444,7 @@ color:var(--active-link-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-
+    margin: 4px;
 
     letter-spacing: 0.06em;
 
@@ -255,5 +458,10 @@ color:var(--active-link-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-
+    margin: 0;
+}
+.port-photo{
+    padding-top: 34px;
+    padding-left: 215px;
+    margin: 0;
 }
