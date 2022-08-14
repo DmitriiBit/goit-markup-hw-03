@@ -110,6 +110,10 @@ margin-bottom: 0;
     
 
 }
+.phone:hover, 
+.phone:focus{
+    color:var(--active-link-color);
+}
 .mail{
     
     color: var(--accent-color);
