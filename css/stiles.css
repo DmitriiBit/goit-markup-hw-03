@@ -394,6 +394,7 @@ footer{
 }
 .f{
     padding-left: 0px;
+    margin: 0;
 }
 .address{
     display: inline-block;
