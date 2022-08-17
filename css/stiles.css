@@ -245,8 +245,8 @@ ul{
 }
 .benefits-m{
     display: flex;
-   margin-top: 0;
-   margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 215px;
     padding-right: 215px;
    
@@ -280,7 +280,11 @@ ul{
     text-transform: uppercase;
     color: var(--title-text-color);
     margin: 0;
+    margin-bottom: 10px;
 
+}
+.text{
+    margin: 0;
 }
 
 /* container */
