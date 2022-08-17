@@ -245,14 +245,18 @@ ul{
 }
 .benefits-m{
     display: flex;
-    flex-wrap: wrap;
-    
-    margin: auto;
-
+   margin-top: 0;
+   margin-bottom: 0;
+    padding-left: 215px;
+    padding-right: 215px;
+   
 }
 .benefits-m .item{
- margin: 15px;
  width: 270px;
+ 
+}
+.benefits-m .item:not(:last-child){
+    margin-right: 30px;
 }
 
 .visually-hidden{
@@ -278,12 +282,7 @@ ul{
     margin: 0;
 
 }
-.benefits-m{
-   
-    margin-bottom: 0px;
-    padding-left: 215px;
-    
-}
+
 /* container */
 .container{
    margin-top: 0;
