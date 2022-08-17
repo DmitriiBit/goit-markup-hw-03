@@ -36,7 +36,7 @@ ul{
  }
  .driver{
     display: flex;
-    
+    align-items: center;
    
    width: 1200px;
     margin-left: 215px;
@@ -467,7 +467,6 @@ color:var(--active-link-color);
 }
 .our-work{
     display: inline-flex;
-    flex-wrap: wrap;
     min-width: 73px;
     padding-top: 94px;
     padding-right: 512px;
@@ -548,6 +547,10 @@ color:var(--active-link-color);
 .port-photo .item:last-child{
     
   margin-right: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
 }
 .portfolio{
     
