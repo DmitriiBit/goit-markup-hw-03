@@ -119,25 +119,7 @@ ul{
    margin-bottom: 0;  
    margin-left: 318px;
 }
-.phone{
-    
-    margin-top: 0;
-    margin-bottom: 0;  
-    margin-left: 30px;  
-    color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    
 
-}
-.phone:hover, 
-.phone:focus{
-    color:var(--active-link-color);
-}
 .mail{
     
     color: var(--accent-color);
@@ -165,6 +147,25 @@ ul{
     letter-spacing: 0.03em;
     text-decoration: none;
    
+}
+.phone{
+    
+    margin-top: 0;
+    margin-bottom: 0;  
+    margin-left: 30px;  
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    
+
+}
+.phone:hover, 
+.phone:focus{
+    color:var(--active-link-color);
 }
 
 .connection:hover,
