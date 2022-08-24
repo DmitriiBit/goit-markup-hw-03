@@ -42,7 +42,9 @@ img {
 
 ul{
     list-style: none;
-    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
  } 
  /* стили навигации */
  header{
@@ -140,14 +142,15 @@ ul{
     margin-top: 0;
     margin-bottom: 0; 
    margin-right: 0;
-   
+   margin-left: auto;
+   font-weight: 500;
 }
 
 .mail{
     padding-top: 32px;
     padding-bottom: 32px;
     color: var(--accent-color);
-    margin-left: 344px;
+    
   
 }
 .mail:hover, .mail:focus{
@@ -164,7 +167,7 @@ ul{
     
     margin-top: 0;
     margin-bottom: 0;  
-    margin-left: 30px;  
+    margin-left: 50px;  
     color: var(--primary-text-color);
     text-decoration: none;
 }
@@ -288,11 +291,14 @@ ul{
 }
 
 /* section */
-.section{
+section{
     
    
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.section-ow{
+    padding-top: 0;
 }
 /* Чим ми займаємось */
 
@@ -311,20 +317,13 @@ ul{
     color: var(--title-text-color);
 }
 .what.we.work{
-    padding: 0;
-  margin: 0;
+   
   list-style: none;
-
   display: flex;
-  flex-wrap: wrap;
-  margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap));
+  gap: var(--card-set-gap);
+  margin-bottom: 0;
 }
-.what.we.work .item{
-    flex-basis: calc(100% / 3 - var(--card-set-gap));
-    margin-left: var(--card-set-gap);
-    margin-top: var(--card-set-gap);
-}
+
 
 
 /* team*/
@@ -367,12 +366,17 @@ ul{
 .team .item:nth-child(4n){
     margin-right: 0;
 }
+
+.card-comand{
+    padding: 30px 0;
+
+}
 .comand{
-   margin: 30px 0 10px;
+  margin-bottom: 10px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color:  var(--title-text-color);
-   
+    font-weight: 500;
     text-align: center;
 }
     
@@ -382,7 +386,7 @@ ul{
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     text-align: center;
-    padding-bottom: 30px;
+    font-weight: 400;
 }
 /* footer */
 
@@ -515,7 +519,7 @@ color:var(--active-link-color);
 .port-photo > .item{
     flex-basis: calc(100% / 3 - var(--card-set-gap));
    
-    border: 1px solid #EEEEEE;
+    
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
 }
@@ -523,27 +527,26 @@ color:var(--active-link-color);
     margin-left: 0;
    
   }
-
+  .port-photo > .item:nth-child(-n + 3) {
+    margin-top: 0;
+  }
 
 
    
 .portfolio{
-    
+    margin-bottom: 4px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    margin-top: 20px;
-    margin-bottom: 4px;
-    padding-left: 24px;
+    
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 
 }
 
 .name{
-    padding-left: 24px;
-    padding-bottom: 20px;
+   
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -551,4 +554,8 @@ color:var(--active-link-color);
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     margin: 0;
+}
+.card-content{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
