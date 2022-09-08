@@ -438,8 +438,7 @@ section{
     border: none;
 }
 svg{
-    width: 44px;
-    height: 44px;
+    
     padding: 0;
     background-image: contain ;
 }
@@ -458,8 +457,7 @@ svg{
     border: none;
     border-radius: 50%;
     /* background-image: contain ; */
-    width: 44px;
-    height: 44px;
+    
    }
    .icon-social{
     margin-left: 10px;
