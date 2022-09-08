@@ -448,6 +448,7 @@ svg{
     height: 44px;
     border: none;
     border-radius: 50%;
+   background-image: contain ;
     
    } 
    .icon-social{
