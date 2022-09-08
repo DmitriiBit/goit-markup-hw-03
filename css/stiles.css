@@ -441,14 +441,14 @@ svg{
     width: 44px;
     height: 44px;
     padding: 0;
-    
+    background-image: contain ;
 }
    .button-icon{
-    width: 44px;
-    height: 44px;
+    
     border: none;
     border-radius: 50%;
-   background-image: contain ;
+    background-color: var(--primary-bg-color);
+   
     
    } 
 
@@ -457,7 +457,7 @@ svg{
     background-color: var(--active-link-color);
     border: none;
     border-radius: 50%;
-    background-image: contain ;
+    /* background-image: contain ; */
     width: 44px;
     height: 44px;
    }
