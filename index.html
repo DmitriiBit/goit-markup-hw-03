@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/stiles.css">
+    <link rel="stylesheet" href="./img/symbol-defs.svg">
     
 </head>
 <body>
@@ -29,8 +30,8 @@
          </nav>
            
                 <ul class="connection">
-                    <li><a href="mailto:info@devstudio.com" class="mail active">info@devstudio.com </a></li>
-                    <li><a href="tel:+380961111111" class="phone">+38 096 111 11 11 </a></li>
+                    <li class="icon-mail"><a href="mailto:info@devstudio.com" class="mail active">info@devstudio.com </a></li>
+                    <li class="icon-phone"><a href="tel:+380961111111" class="phone">+38 096 111 11 11 </a></li>
                 </ul>
     </div>
    
@@ -64,25 +65,26 @@
                     
                  <h2 class="visually-hidden">Переваги роботи з нами</h2>
                   <ul class="benefits-m">
-                    <li class="item">
-                        
+                    <li class="item icon-antena" >
+                      
                             <h3 class="benefits">УВАГА ДО ДЕТАЛЕЙ</h3>
                             <p class="text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції. </p>
                        
                     </li>
     
-                    <li class="item">
+                    <li class="item icon-clock">
+                      
                         <h3 class="benefits">ПУНКТУАЛЬНІСТЬ</h3>
                         <p class="text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                     </li>
                
-                    <li class="item">
+                    <li class="item icon-pc">
                         <h3 class="benefits">ПЛАНУВАННЯ</h3>
                         <p class="text">Так само консультація з широким активом значною мірою зумовлює. </p>
                         
                     </li>
             
-                    <li class="item">
+                    <li class="item icon-cosmo">
                         <h3 class="benefits">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                         <p class="text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                         
@@ -127,74 +129,126 @@
                 
                     <h2 class="work"> Наша команда</h2>
                     <div class="container">
-                        <ul class="team">
-                            <li class="item">
-                                
-                                    <div class="card-thumb">
-                                      <img src="./img/igor.jpg" alt="Ігор Дем'яненко" />
-                                    </div>
-                        
-                                    <div class="card-comand">
-                                        <h3 class="comand">Ігор Дем'яненко</h3>
-                                      <p class="card-text">
-                                        Product Designer
-                                      </p>
-                                    </div>
-                                  
-                            </li>
+                      <ul class="team">
+                        <li class="item">
+                            
+                                <div class="card-thumb">
+                                  <img src="./img/igor.jpg" alt="Ігор Дем'яненко" />
+                                </div>
+                    
+                                <div class="card-comand">
+                                    <h3 class="comand">Ігор Дем'яненко</h3>
+                                  <p class="card-text">
+                                    Product Designer
+                                  </p>
+                                  <ul class="action" >
+                                    <li class="icon-social"><button class="button-icon">
+                                      <svg>
+                                        <use href="./img/symbol-defs.svg#icon-facebook-1">
+                                        
+                                      </use>
+                                    </svg>
+                                    </button></li>
+
+                                    <li class="icon-social"><button class="button-icon">
+                                      <svg>
+                                        <use href="./img/sprite.svg#icon-facebook-1">
+                                        
+                                      </use>
+                                    </svg>
+                                    </button></li>
+
+                                    <li class="icon-social"><button class="button-icon">
+                                      <svg>
+                                        <use href="./img/symbol-defs.svg#icon-facebook-1">
+                                        
+                                      </use>
+                                    </svg>
+                                    </button></li>
+
+                                    <li class="icon-social"><button class="button-icon">
+                                      <svg>
+                                        <use href="./img/symbol-defs.svg#icon-facebook-1">
+                                        
+                                      </use>
+                                    </svg>
+                                    </button></li>
+
+                                    
+
+                                   
+                                  </ul>
+                                </div>
+                              
+                        </li>
 
 
-                            <li class="item">
-                                
-                                    <div class="card-thumb">
-                                      <img src="./img/olga.jpg" alt="Ольга Рєпіна" />
-                                    </div>
-                        
-                                    <div class="card-comand">
-                                        <h3 class="comand">Ольга Рєпіна</h3>
-                                      <p class="card-text">
-                                        Frontend Developer
-                                      </p>
-                                    </div>
-                                  
-                            </li>
+                        <li class="item">
+                            
+                                <div class="card-thumb">
+                                  <img src="./img/olga.jpg" alt="Ольга Рєпіна" />
+                                </div>
+                    
+                                <div class="card-comand">
+                                    <h3 class="comand">Ольга Рєпіна</h3>
+                                  <p class="card-text">
+                                    Frontend Developer
+                                  </p>
+                                </div>
+                              
+                        </li>
 
 
-                            <li class="item">
-                                
-                                    <div class="card-thumb">
-                                      <img src="./img/mikola.jpg" alt="Микола Тарасов" />
-                                    </div>
-                        
-                                    <div class="card-comand">
-                                        <h3 class="comand">Микола Тарасов</h3>
-                                      <p class="card-text">
-                                        Marketing
-                                      </p>
-                                    </div>
-                                  
-                                
-                            </li>
-                            <li class="item">
-                                
-                                    <div class="card-thumb">
-                                      <img src="./img/mixailo.jpg" alt="Михайло Єрмаков" />
-                                    </div>
-                        
-                                    <div class="card-comand">
-                                        <h3 class="comand">Михайло Єрмаков</h3>
-                                      <p class="card-text">
-                                        UI Designer
-                                      </p>
-                                    </div>
-                                  
-                                
-                            </li>
-                        </ul>
+                        <li class="item">
+                            
+                                <div class="card-thumb">
+                                  <img src="./img/mikola.jpg" alt="Микола Тарасов" />
+                                </div>
+                    
+                                <div class="card-comand">
+                                    <h3 class="comand">Микола Тарасов</h3>
+                                  <p class="card-text">
+                                    Marketing
+                                  </p>
+                                </div>
+                              
+                            
+                        </li>
+                        <li class="item">
+                            
+                                <div class="card-thumb">
+                                  <img src="./img/mixailo.jpg" alt="Михайло Єрмаков" />
+                                </div>
+                    
+                                <div class="card-comand">
+                                    <h3 class="comand">Михайло Єрмаков</h3>
+                                  <p class="card-text">
+                                    UI Designer
+                                  </p>
+                                </div>
+                              
+                            
+                        </li>
+                    </ul>
                     </div>
                 
                 
                 
+             </section>
+             <section>
+              <h2 class="work">Постійні клієнти</h2>
+              <div class="container">
+                <ul class="clients">
+                  <li class="client-item"><link rel="stylesheet" href=""> <img class="client-icon" src="./img/Logo.png" alt=""></li>
+                  <li class="client-item"><link rel="stylesheet" href=""> <img class="client-icon" src="./img/Logo (1).png" alt=""></li>
+                  <li class="client-item"><link rel="stylesheet" href=""> <img class="client-icon" src="./img/Logo (2).png" alt=""></li>
+                  <li class="client-item"><link rel="stylesheet" href=""> <img class="client-icon" src="./img/Logo (3).png" alt=""></li>
+                  <li class="client-item"><link rel="stylesheet" href=""> <img class="client-icon" src="./img/Logo (4).png" alt=""></li>
+                  <li class="client-item"><link rel="stylesheet" href=""> <img class="client-icon" src="./img/Logo (5).png" alt=""></li>
+                  
+                  
+                </ul>
+              </div>
              </section>
         
     </main>
@@ -214,7 +268,7 @@
            
         </div>
         
-        
+       
 
     </footer>
     

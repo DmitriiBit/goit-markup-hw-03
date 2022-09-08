@@ -153,6 +153,30 @@ ul{
     
   
 }
+.icon-mail::before{
+    content: "";
+    width: 16px;
+    height: 12px;
+    background-size: contain;
+    margin-right: 16px;
+    display: inline-block;
+   background-image: url("../img/envelope\ \(hover\).png");
+}
+.phone::before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    color: var(--primary-text-color);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 16px;
+    background-image: url("../img/smartphone.svg");
+    
+}
+.phone.before:hover{
+background-color: var(--active-link-color);
+}
 .mail:hover, .mail:focus{
     color:var(--active-link-color);
 }
@@ -171,6 +195,7 @@ ul{
     color: var(--primary-text-color);
     text-decoration: none;
 }
+
 .phone:hover, 
 .phone:focus{
     color:var(--active-link-color);
@@ -185,9 +210,16 @@ ul{
 /* hero */
 .hero{
    
+   background-image:url(../img/Img\ Overlay.png), url(../img/Img.jpg);
+   background-repeat: no-repeat;
     background-color: var(--bg-color);
     padding: 200px 0;
-    
+   background-size: cover;
+    background-position: 50% 50%;
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
  }
  .h{
     width: 1200px;
@@ -229,17 +261,13 @@ ul{
     min-width: 73px;
     
 }
+
 .button.order{
-   
-    
     padding: 10px 32px;
     min-width: 216px;
-   
     border-radius: 4px;
-    
-   
-    
 }
+
 .button:hover,
 .button:focus{
     color:var(--accent-color);
@@ -262,6 +290,30 @@ ul{
     margin-right: 30px;
 }
 
+.benefits-m .item::before{
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: var(--button-bg-color);
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+}
+
+ 
+.icon-antena::before{
+    background-image: url("../img/antenna-min.png");
+   
+}
+.icon-clock::before{
+    background-image:url("../img/clock\ 1-min.png") ;
+}
+.icon-pc::before{
+    background-image: url("../img/diagram\ 1-min.png");
+}
+.icon-cosmo::before{
+    background-image: url("../img/astronaut\ 1-min.png");
+}
 .visually-hidden{
     position: absolute;
   width: 1px;
@@ -379,14 +431,56 @@ section{
     font-weight: 500;
     text-align: center;
 }
+.action{
+    display: flex;
+    padding: 0 32px 30px;
+    margin-bottom: 0;
+}
+svg{
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+}
+   .button-icon{
+    width: 44px;
+    height: 44px;
+    
+   } 
+   .icon-social{
+    margin-left: 10px;
+   }
+   
+   .icon-social:nth-child(1){
+    margin-left: 0;
+   }
     
 .card-text{
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     text-align: center;
     font-weight: 400;
+}
+
+.clients{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.client-icon{
+   min-width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+}
+.client-item{
+    margin-left: 30px;
+}
+.client-item:nth-child(1){
+margin-left: 0;
 }
 /* footer */
 
@@ -418,7 +512,7 @@ footer{
     margin-bottom: 0;
 }
 .address{
-   
+    
     text-decoration: none;
     font-style: normal;
     color:var(--primary-bg-color)
