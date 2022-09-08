@@ -305,17 +305,17 @@ ul{
 
  
 .icon-antena::before{
-    background-image: url("../img/antenna-min.png");
+    background-image: url("../img/Group\ \(1\).svg");
    
 }
 .icon-clock::before{
-    background-image:url("../img/clock\ 1-min.png") ;
+    background-image:url("../img/clock\ 1\ \(1\).svg") ;
 }
 .icon-pc::before{
-    background-image: url("../img/diagram\ 1-min.png");
+    background-image: url("../img/diagram\ 1\ \(1\).svg");
 }
 .icon-cosmo::before{
-    background-image: url("../img/astronaut\ 1-min.png");
+    background-image: url("../img/astronaut\ 1\ \(1\).svg");
 }
 .visually-hidden{
     position: absolute;
@@ -493,7 +493,8 @@ svg{
     padding-left: 0;
 }
 .client-icon{
-   min-width: 170px;
+    padding: 16px 32px;
+    width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
 }
