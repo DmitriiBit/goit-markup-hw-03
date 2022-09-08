@@ -438,12 +438,14 @@ section{
     border: none;
 }
 svg{
-    
+    width: 20px;
+    height: 20px;
     padding: 0;
     background-image: contain ;
 }
    .button-icon{
-    
+    width: 44px;
+    height: 44px;
     border: none;
     border-radius: 50%;
     background-color: var(--primary-bg-color);
@@ -457,7 +459,8 @@ svg{
     border: none;
     border-radius: 50%;
     /* background-image: contain ; */
-    
+    width: 44px;
+    height: 44px;
    }
    .icon-social{
     margin-left: 10px;
