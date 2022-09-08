@@ -157,24 +157,25 @@ ul{
     content: "";
     width: 16px;
     height: 12px;
-    background-size: contain;
-    margin-right: 16px;
+    
+    margin-right: 10px;
     display: inline-block;
    background-image: url("../img/envelope\ \(hover\).png");
 }
+
 .phone::before{
     content: "";
     display: inline-block;
-    width: 16px;
-    height: 12px;
-    color: var(--primary-text-color);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 16px;
-    background-image: url("../img/smartphone.svg");
     
+    width: 10px;
+    height: 16px;
+    color: var(--primary-text-color);
+    margin-right: 10px;
+    background-image: url("../img/Vector\ \(1\).svg");
+    
+   
 }
-.phone.before:hover{
+.phone::before:hover{
 background-color: var(--active-link-color);
 }
 .mail:hover, .mail:focus{
@@ -458,7 +459,7 @@ svg{
     background-color: var(--active-link-color);
     border: none;
     border-radius: 50%;
-    /* background-image: contain ; */
+    
     width: 44px;
     height: 44px;
    }
