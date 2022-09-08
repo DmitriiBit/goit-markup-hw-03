@@ -454,13 +454,16 @@ svg{
    } 
 
    .button-icon-active{
-    fill: var(--primary-bg-color);
+    
     background-color: var(--active-link-color);
     border: none;
     border-radius: 50%;
     /* background-image: contain ; */
     width: 44px;
     height: 44px;
+   }
+   .letter{
+    fill: var(--primary-bg-color);
    }
    .icon-social{
     margin-left: 10px;
