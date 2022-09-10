@@ -6,6 +6,7 @@
     --primary-bg-color: #fffffF;
     --bg-color:#2F303A;
     --button-bg-color:#F5F4FA;
+    --icon-fill-color:#AFB1B8;
     --card-set-gap: 30px;
     --card-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
@@ -174,11 +175,11 @@ ul{
     color: var(--primary-text-color);
     margin-right: 10px;
     background-image: url("../img/Vector\ \(1\).svg");
-    
+    fill: #757575;
    
 }
 .phone::before:hover{
- fill:blue;
+ fill:#757575;
 }
 .mail:hover, .mail:focus{
     color:var(--active-link-color);
@@ -427,7 +428,7 @@ section{
 
 }
 .comand{
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color:  var(--title-text-color);
@@ -465,8 +466,12 @@ svg{
     width: 44px;
     height: 44px;
    }
-   .letter{
-    fill: var(--primary-bg-color);
+   
+   .instagram{
+    color: var(--primary-bg-color);
+   }
+   .twitter{
+    fill: var(--icon-fill-color);
    }
    .icon-social{
     margin-left: 10px;
@@ -507,6 +512,7 @@ margin-left: 0;
 /* footer */
 
 footer{
+    display: flex;
     margin-bottom: 0;
     margin: 0px  ;
     padding: 60px 0;
@@ -560,6 +566,41 @@ footer{
 .footer-phone:focus{
     color:var(--active-link-color);
     
+}
+.ff{
+    display: flex;
+}
+.link-footer{
+    display: flex;
+    margin-left: 70px;
+}
+.union{
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+.button-icon-footer{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+
+}
+.button-icon-footer-if{
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-position: center;
+    background-color: var(--active-link-color) ;
 }
 /* portfolio */
 
